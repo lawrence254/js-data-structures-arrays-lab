@@ -1,0 +1,43 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-01-21T22:00:51.095Z",
+    "end": "2022-01-21T22:00:52.057Z",
+    "duration": 962
+  },
+  "tests": [
+    {
+      "title": "appends pet \"Odie\" to the end of the pets array",
+      "fullTitle": "index.js Array functions append appends pet \"Odie\" to the end of the pets array",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"after each\" hook for \"appends pet \"Odie\" to the end of the pets array\"",
+      "fullTitle": "index.js \"after each\" hook for \"appends pet \"Odie\" to the end of the pets array\"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Assignment to constant variable.\n    at resetDriver (test/indexTest.js:7:12)\n    at Context.<anonymous> (test/indexTest.js:12:61)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Assignment to constant variable."
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "appends pet \"Odie\" to the end of the pets array",
+      "fullTitle": "index.js Array functions append appends pet \"Odie\" to the end of the pets array",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
